@@ -1,18 +1,70 @@
-# Moqup
+<p align="center">
+  <img src="public/favicon.svg" width="80" height="80" alt="Moqup Logo">
+</p>
 
-**Drop. Frame. Ship.**
+<h1 align="center">Moqup</h1>
 
-A free, open-source screenshot mockup generator. Paste or upload screenshots and instantly generate beautiful mockups with device frames, gradient backgrounds, shadows, and more. Entirely client-side, deployed on Cloudflare Workers.
+<p align="center">
+  <strong>Drop. Frame. Ship.</strong>
+</p>
+
+<p align="center">
+  A free, open-source screenshot mockup generator.<br>
+  Create beautiful mockups with device frames, gradient backgrounds, and shadows.
+</p>
+
+<p align="center">
+  <a href="#features">Features</a> •
+  <a href="#demo">Demo</a> •
+  <a href="#quick-start">Quick Start</a> •
+  <a href="#usage">Usage</a>
+</p>
+
+---
+
+## Demo
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/demo-placeholder.png" width="800" alt="Moqup Demo">
+</p>
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  🔴 🟡 🟢    Moqup - Drop. Frame. Ship.              [Export ▾] │
+├─────────────────────────────────────────────────────────────────┤
+│                                                    │ Device     │
+│                                                    │ ┌────────┐ │
+│         ┌─────────────────────────┐               │ │ Browser│ │
+│         │ ┌─────────────────────┐ │               │ └────────┘ │
+│         │ │  ● ● ●   myapp.com  │ │               │            │
+│         │ ├─────────────────────┤ │               │ Background │
+│         │ │                     │ │               │ ┌────────┐ │
+│         │ │   Your Screenshot   │ │               │ │ 🌈     │ │
+│         │ │        Here         │ │               │ └────────┘ │
+│         │ │                     │ │               │            │
+│         │ └─────────────────────┘ │               │ Padding    │
+│         └─────────────────────────┘               │ ───●────── │
+│                                                    │            │
+│                                                    │ Shadow     │
+│                                                    │ ┌────────┐ │
+│                                                    │ │ Medium │ │
+│                                                    │ └────────┘ │
+├─────────────────────────────────────────────────────────────────┤
+│        Free & open-source    [Ctrl+S] Export  [Esc] Reset       │
+└─────────────────────────────────────────────────────────────────┘
+```
 
 ## Features
 
-- **Device Frames** - iPhone, MacBook, iPad, Pixel, Browser, Monitor
-- **Backgrounds** - Gradient presets, solid colors, custom gradients, transparent
-- **Customization** - Adjustable padding, shadows, border radius
-- **Browser URL** - Dynamic URL input for browser frame mockups
-- **Export Options** - PNG (1x/2x/3x), social media sizes, SVG
-- **Keyboard Shortcuts** - `Ctrl+S` to export, `Esc` to reset
-- **Dark Theme** - Clean, minimal interface
+| Feature | Description |
+|---------|-------------|
+| 📱 **Device Frames** | iPhone, MacBook, iPad, Pixel, Browser, Monitor |
+| 🎨 **Backgrounds** | Gradient presets, solid colors, custom gradients, transparent |
+| ⚙️ **Customization** | Adjustable padding, shadows, border radius |
+| 🌐 **Browser URL** | Dynamic URL input for browser frame mockups |
+| 📤 **Export Options** | PNG (1x/2x/3x), social media sizes, SVG |
+| ⌨️ **Keyboard Shortcuts** | `Ctrl+S` to export, `Esc` to reset |
+| 🌙 **Dark Theme** | Clean, minimal interface |
 
 ## Quick Start
 
@@ -30,6 +82,34 @@ npm run build
 npm run deploy
 ```
 
+## Usage
+
+<table>
+<tr>
+<td width="33%" align="center">
+
+**1. Drop**
+
+Drag & drop, paste `Ctrl+V`, or click to upload
+
+</td>
+<td width="33%" align="center">
+
+**2. Frame**
+
+Choose device, background, padding & shadows
+
+</td>
+<td width="33%" align="center">
+
+**3. Ship**
+
+Export as PNG or SVG
+
+</td>
+</tr>
+</table>
+
 ## Tech Stack
 
 - [TanStack Start](https://tanstack.com/start) - React framework
@@ -37,12 +117,12 @@ npm run deploy
 - [Cloudflare Workers](https://workers.cloudflare.com) - Deployment
 - [html-to-image](https://github.com/bubkoo/html-to-image) - Export functionality
 
-## Usage
-
-1. **Drop** - Drag & drop, paste (`Ctrl+V`), or click to upload a screenshot
-2. **Frame** - Choose a device frame and customize the background, padding, and shadows
-3. **Ship** - Export your mockup as PNG or SVG
-
 ## License
 
 MIT
+
+---
+
+<p align="center">
+  Made with ❤️ by <a href="https://github.com/lauragift21">Gift Egwuenu</a>
+</p>
