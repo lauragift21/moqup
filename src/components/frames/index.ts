@@ -1,0 +1,6 @@
+export { IPhoneFrame } from './IPhoneFrame'
+export { MacBookFrame } from './MacBookFrame'
+export { IPadFrame } from './IPadFrame'
+export { PixelFrame } from './PixelFrame'
+export { BrowserFrame } from './BrowserFrame'
+export { MonitorFrame } from './MonitorFrame'
