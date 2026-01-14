@@ -14,17 +14,6 @@
 </p>
 
 <p align="center">
-  <a href="#features">Features</a> •
-  <a href="#demo">Demo</a> •
-  <a href="#quick-start">Quick Start</a> •
-  <a href="#usage">Usage</a>
-</p>
-
----
-
-## Demo
-
-<p align="center">
   <img src="./demo.png" width="800" alt="Moqup Demo">
 </p>
 
@@ -58,31 +47,9 @@ npm run deploy
 
 ## Usage
 
-<table>
-<tr>
-<td width="33%" align="center">
-
-**1. Drop**
-
-Drag & drop, paste `Ctrl+V`, or click to upload
-
-</td>
-<td width="33%" align="center">
-
-**2. Frame**
-
-Choose device, background, padding & shadows
-
-</td>
-<td width="33%" align="center">
-
-**3. Ship**
-
-Export as PNG or SVG
-
-</td>
-</tr>
-</table>
+1. **Drop** - Drag & drop, paste (`Ctrl+V`), or click to upload a screenshot
+2. **Frame** - Choose a device frame and customize background, padding & shadows
+3. **Ship** - Export your mockup as PNG or SVG
 
 ## Tech Stack
 
